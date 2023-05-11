@@ -1,3 +1,54 @@
-title:2app
-description:meu segundo app
-theme:victoria
+title: Whiskey Bob
+author: Whiskey Bob
+email: bob@whiskeybob.com
+description: > # this means to ignore newlines until "baseurl:"
+  Writing about whiskey every day.
+
+# social links
+twitter_username: bob8whiskey
+github_username:  bob8whiskey
+rss: rss
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+instagram_username: bob8whiskey
+#linkedin_username: jekyll
+#pinterest_username: jekyll
+youtube_username: channel/UCf7hRqgL7RPTILxiiSVUhnw
+reddit_username: bob8whiskey
+#googleplus_username: +jekyll
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+disqus:
+  shortname: whiskeybob
+
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - pages/blog.md
+  - pages/archive.md
+  - pages/reviews.md
+  - pages/cocktails.md
+  - pages/about.md
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
